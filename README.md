@@ -24,13 +24,13 @@ func compareRomans(r1, r2 string) {
 		...
 	}
     
-    //compare
-    if(compareTwoRomans(r1,r2)<1){
-        ...
-    }
+    	//compare
+    	if(compareTwoRomans(r1,r2)<1){
+    	    ...
+    	}
     
-    // using  viniculum system 
-    val := vinculumRomanToInt(r1)
+    	// using  viniculum system 
+    	val := vinculumRomanToInt(r1)
 	val2 := vinculumRomanToInt(r2)
     
     
